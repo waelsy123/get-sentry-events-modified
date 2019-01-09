@@ -1,3 +1,4 @@
 signup.json
 package-lock.json
 *.csv
+.node_modules
