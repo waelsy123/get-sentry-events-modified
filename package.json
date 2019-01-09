@@ -1,0 +1,59 @@
+{
+  "_from": "get-sentry-event-data",
+  "_id": "get-sentry-event-data@2.2.1",
+  "_inBundle": false,
+  "_integrity": "sha1-vRgBO6jNgfBDcttXJ8qp/N2O6XM=",
+  "_location": "/get-sentry-event-data",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "get-sentry-event-data",
+    "name": "get-sentry-event-data",
+    "escapedName": "get-sentry-event-data",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/get-sentry-event-data/-/get-sentry-event-data-2.2.1.tgz",
+  "_shasum": "bd18013ba8cd81f04372db5727caa9fcdd8ee973",
+  "_spec": "get-sentry-event-data",
+  "_where": "/Users/waelsy123",
+  "bin": {
+    "get-sentry-event-data": "index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/busbud/get-sentry-event-data/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "generate-password": "^1.4.1",
+    "ramda": "0.21.0",
+    "request-promise": "3.0.0",
+    "urijs": "1.16.1",
+    "yargs": "4.7.1"
+  },
+  "deprecated": false,
+  "description": "CLI to retrieve event data from Sentry",
+  "engines": {
+    "node": ">=4.4.3"
+  },
+  "homepage": "https://github.com/busbud/get-sentry-event-data#readme",
+  "keywords": [
+    "sentry"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "get-sentry-event-data",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/busbud/get-sentry-event-data.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.2.1"
+}
